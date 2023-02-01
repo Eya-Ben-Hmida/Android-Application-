@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:id="@+id/linearlayout"
+    tools:context=".Activities.FormActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remplissez ce formulaire attentivement !"
+        android:id="@+id/textField"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>

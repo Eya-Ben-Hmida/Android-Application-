@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".Activities.AgentTasksActivity">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Bienvenue"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button_Task"
+        android:layout_width="match_parent"
+        android:layout_below="@id/welcome"
+        android:layout_height="73dp"
+        android:shadowColor="#808080"
+        android:backgroundTint="@color/black"
+        android:text="My Tasks" />
+
+    <Button
+        android:id="@+id/button_GroupTasks"
+        android:shadowColor="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_below="@+id/button_Task"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:outlineSpotShadowColor="@color/white"
+        android:text="Group Tasks" />
+    <Button
+        android:id="@+id/process_list"
+        android:shadowColor="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_below="@+id/button_GroupTasks"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:outlineSpotShadowColor="@color/white"
+        android:text="Process list" />
+
+</RelativeLayout>
